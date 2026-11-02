@@ -37,5 +37,7 @@ The numbered scripts are organized roughly by topic:
 - `projects/archive_project.sh` — compresses files larger than 20 MB under a configured directory and moves them into an archive directory.
 - `projects/create_server_user.sh` — creates a Linux user and sets an initial password; requires root privileges.
 - `projects/fs_status.sh` and `projects/ram_status.sh` — basic disk-space and memory checks.
+- `projects/mailing-setup.sh` — installs and configures Postfix to relay mail; requires root privileges and mail relay credentials.
+- `projects/cleanup_postfix.sh` — purges Postfix-related packages and removes their configuration and data directories.
 
-The project scripts may contain machine-specific placeholders and assumptions. Review and adapt scripts for your environment before use; run administrative scripts only when you understand their effects.
+The project scripts may contain machine-specific placeholders and assumptions. In particular, `cleanup_postfix.sh` deletes system data, while `mailing-setup.sh` changes system mail configuration. Review and adapt scripts for your environment before use; run administrative scripts only when you understand their effects.
