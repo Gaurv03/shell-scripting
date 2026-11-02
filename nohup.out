@@ -1,0 +1,11 @@
+nohup: failed to run command './15_for_loop_1.sh': Permission denied
+nohup: failed to run command './15_for_loop_1.sh': Permission denied
+Number is 1
+Number is 2
+Number is 3
+Number is 4
+Number is 5
+Name is Vinter
+Name is Bruce
+Name is Clark
+Name is Hal

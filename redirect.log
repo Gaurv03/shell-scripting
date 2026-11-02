@@ -1,0 +1,6 @@
+PING www.google.com (2001:4860:4826:7700::) 56 data bytes
+64 bytes from 2001:4860:4826:7700::: icmp_seq=1 ttl=116 time=14.7 ms
+
+--- www.google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 14.738/14.738/14.738/0.000 ms
